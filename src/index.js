@@ -1,1 +1,5 @@
-console.log('Javascript is a scripting language')
+const button = function(props) {
+    return (
+        <div className="container">{props.children}</div>
+    )
+}
